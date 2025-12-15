@@ -3,12 +3,12 @@ getSumBtn.innerText = "Get Total Price";
 document.body.appendChild(getSumBtn);
 
 const getSum = () => {
-  // 1. saari prices ko select karo
+  
   const prices = document.querySelectorAll(".price");
 
   let total = 0;
 
-  // 2. prices ka sum nikalo
+  
   prices.forEach((price) => {
     total += Number(price.innerText);
   });
